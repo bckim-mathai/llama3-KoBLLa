@@ -1,2 +1,2 @@
 # llama3-KoBLLa
-Korean Bilingual Large Language Model
+Llama 3 Korean Bilingual Large Language Model
