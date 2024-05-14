@@ -1,3 +1,14 @@
+# Checkpoints
+checkpoints/Meta-Llama-*
+checkpoints/Llama-3-KoBlla-8B/*
+checkpoints/Llama-3-KoBlla-8B-Instruct/*
+# Kowikitext
+kowikitext_script/kowiki-*-pages-articles-*
+kowikitext_script/texts/*
+# Datasets
+data/*
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
