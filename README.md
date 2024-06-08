@@ -63,16 +63,11 @@ We modified the scripts in the [lovit/kowikitext](https://github.com/lovit/kowik
 This corpus is licensed under CC-BY-SA 3.0, the same license as Korean Wikipedia.
 For details, visit https://www.creativecommons.org/licenses/by-sa/3.0/.
 
-### KoLIMA(MathAI) and BiLIMA
+### KoBLIMA
 
-KoLIMA(MathAI) is a Korean translation of the [LIMA: Less Is More for Alignment](https://arxiv.org/pdf/2305.11206.pdf), created using Google's Gemini Pro 1.5.
+[KoBLIMA](https://github.com/bckim-mathai/KoBLIMA) is a Korean Bilingual version of [LIMA](https://arxiv.org/pdf/2305.11206.pdf) (Less Is More for Alignment), created using Google's Gemini 1.5 Flash.
 
-While the [taeshahn/ko-lima](https://huggingface.co/datasets/taeshahn/ko-lima) dataset already exists, our KoLIMA(MathAI) dataset differs significantly in its use of Gemini Pro 1.5 for translation instead of the [DeepL API](https://developers.deepl.com/docs).
-Furthermore, our dataset features user queries written in informal Korean (banmal, 반말) and assistant responses in formal Korean (jondaetmal, 존댓말).
-
-BiLIMA is a bilingual LIMA dataset with two modes: `en_ko` and `ko_en`.
-- `en_ko`: the user's query is given in English and the assistant's answer is given in Korean.
-- `ko_en`: the user's query is given in Korean and the assistant's answer is given in English.
+For more details, please visit the repository.
 
 ## Fine-tuning Llama 3 for English and Korean
 
