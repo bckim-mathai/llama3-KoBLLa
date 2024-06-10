@@ -34,7 +34,7 @@ Meta's Llama 3 is a large language model that is freely available for use by sma
 While primarily an English-based model, Llama 3 has been trained on a diverse set of foreign languages, including Korean.
 It also has a large enough vocabulary to handle non-alphabetic languages, like Korean.
 
-KoBLLa uses `Meta-Llama 3 7B` as a base and trains it further to improve its understanding of the Korean language, culture, and specific knowledge related to its intended use.
+KoBLLa uses `Meta-Llama 3 8B` as a base and trains it further to improve its understanding of the Korean language, culture, and specific knowledge related to its intended use.
 
 ### Llama 3 8B-Instruct
 
